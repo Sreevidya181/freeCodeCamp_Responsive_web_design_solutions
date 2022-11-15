@@ -1,0 +1,80 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color:white;
+    }
+  }
+  body{
+    font-size:20px;
+  }
+  #header{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+  }
+  #navbar{
+    position:absolute;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    column-gap:2rem;
+    top:60px;
+    width:95%;
+  }
+  .product{
+    display:block;
+    border: 1px solid black;
+    margin:10px;
+    text-align:center;
+    width:40%;
+    margin-right:30%;
+    margin-left:30%;
+    padding-top:-10px;
+    padding-bottom:10px;
+  }
+  .price{
+    font-weight:bolder;
+    font-size: 24px;
+  }
+#footer{
+    background-color:grey;
+    display:flex;
+    justify-content:flex-end;
+    margin-top:10px;
+    padding:5px;
+    color:black;
+}
+  .level{
+    background-color:grey;
+    padding:5px;
+  }
+  .feature{
+    margin:10px;
+   
+  }
+#form{
+  text-align:center;
+}
+#email{
+  background-color:white;
+}
+#get-started{
+  background-color:yellow;
+  color:black;
+  border:none;
+  margin-top:5px;
+  padding:5px;
+  
+} 
+a:link{
+  text-decoration:none;
+  color:black;
+}
+.button{
+  color:black;
+  background-color:yellow;
+  padding:10px;
+  border:none;
+}
+header h2{
+  text-align:center;
+}

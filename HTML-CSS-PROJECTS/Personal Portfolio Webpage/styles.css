@@ -1,0 +1,48 @@
+@media only screen and(max-width:600px){
+    body{
+      background-color:lightblue;
+    }
+}
+#navbar{
+    color:white;
+    display:flex;
+    column-gap:2rem;
+    justify-content:flex-end;
+    background-color:black;
+    padding:8px;
+}
+navbar a{
+  color:white;
+}
+.projects-container{
+  display:grid;
+  column-gap:10px;
+  row-gap:10px;
+  text-align:center;
+  
+}  
+#project-image{
+  width:200px;
+  height:200px;
+}
+body{
+  text-align:center;
+  margin:0;
+  padding:0;
+  border:0;
+}  
+#footer{
+  background-color:#f9f9f9;
+  padding:2px;
+}
+#projects{
+  background-color:lightgrey;
+  margin-top:-20px;
+  padding-top:1px;
+  padding-bottom:5px;
+}
+#welcome-section{
+  background-color:lightslategray;
+  margin-top:-20px;
+  padding-bottom:5px;
+}
