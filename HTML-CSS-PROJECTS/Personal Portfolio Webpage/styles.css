@@ -3,13 +3,18 @@
       background-color:lightblue;
     }
 }
+*{
+  font-family:'Arial',sans-serif;
+}
 #navbar{
+    position:fixed;
+    width:93%;
     color:white;
     display:flex;
     column-gap:2rem;
     justify-content:flex-end;
-    background-color:black;
-    padding:8px;
+    background-color:#be3144;
+    padding:15px;
 }
 navbar a{
   color:white;
@@ -19,11 +24,12 @@ navbar a{
   column-gap:10px;
   row-gap:10px;
   text-align:center;
-  
+  padding:10px;
 }  
 #project-image{
   width:200px;
   height:200px;
+  padding:10px;
 }
 body{
   text-align:center;
@@ -32,17 +38,66 @@ body{
   border:0;
 }  
 #footer{
-  background-color:#f9f9f9;
+  background-color:#303841;
+  color:white;
   padding:2px;
+  padding-bottom:10px;
 }
 #projects{
-  background-color:lightgrey;
+  background-color:#45567d;
   margin-top:-20px;
-  padding-top:1px;
+  padding-top:40px;
   padding-bottom:5px;
 }
 #welcome-section{
-  background-color:lightslategray;
-  margin-top:-20px;
+  background-color:black;
+  padding-top:100px;
+  padding-bottom:100px;
+  color:white;
+}
+a{
+  text-decoration:none;
+}
+#footer a{
+  color:white;
+  padding:5px;
+}
+h3{
+  color:#be3144;
+  font-style:italic;
+  font-weight:normal;
+  margin-top:-15px;
+}
+.projects-container a{
+  background-color:black;
+  color:white;
+  padding:5px 60px;
+}
+#footer p{
+  color:white;
+  font-style:italic;
+  margin-top:-10px;
   padding-bottom:5px;
+}
+hr{
+  border-width:3px white;
+  color:white;
+  background-color:white;
+  width:70%;
+}
+#projects p{
+  color:white;
+}
+#show-btn{
+  display:flex;
+  justify-content:center;
+  color:white;
+  background-color:#303841;
+  width:25%;
+  margin-left:50px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+#projects a:hover{
+  background-color:#be3144;
 }
