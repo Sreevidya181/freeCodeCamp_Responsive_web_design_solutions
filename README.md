@@ -1,3 +1,3 @@
 
 
-This repository contains my learnings from freeCodeCamp's Respsonsive Web Design course
+This repository contains my solutions to challenges from freeCodeCamp's Respsonsive Web Design course
